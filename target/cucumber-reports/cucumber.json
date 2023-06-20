@@ -1,0 +1,61 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Decoder",
+        "description": "",
+        "id": "decode-qr;decoder",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4335338432,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "open site decode",
+            "match": {
+              "location": "decoder.open_site_decode()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 14298059676,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I Upload QR",
+            "match": {
+              "location": "decoder.i_Upload_QR()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "I click submit",
+            "match": {},
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "decode QR",
+    "description": "",
+    "id": "decode-qr",
+    "keyword": "Feature",
+    "uri": "features/decode.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@decode"
+      }
+    ]
+  }
+]
